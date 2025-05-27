@@ -9,9 +9,9 @@ export default function Image() {
         <div className='icon'>
             <i class ="fa solid fa-plus"></i> 
         </div>
-        <div>
-        <h6>Join 1000+ users</h6>
-        <h6>Achieve your learning goals</h6>
+        <div class="lines">
+        <p>Join 1000+ users</p><br></br>
+        <p>Achieve your learning goals</p>
         </div>
     </div>
     </div>

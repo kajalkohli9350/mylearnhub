@@ -5,7 +5,7 @@
    background-color: black;
    display: flex;
    justify-content: center;
-   padding: 5px;
+   padding: 25px;
    z-index: -1;
   
    
@@ -22,7 +22,14 @@
 .icon{
     border-radius: 50%;
     background-color: #6930c3;
-    width: 1.5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.lines{
+ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,13 +37,19 @@
 }
 .image-text{
     position: absolute;
-    right: 10px;
+    right: 20px;
+
    display: flex;
-   padding: 5px;
-    
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+   padding: 10px;
+    width: 15%;
+    height: 10%;
     z-index: 1;
-    border: 1px solid blue;
-    background-color: white;
+    border: 1px solid rgb(64, 68, 92);
+    color: white;
+    background-color: black;
     
 
 }

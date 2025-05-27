@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="logo">
-                    <a href="/"><h2 style={{color:'#EDC9FF'}}>LearnHub</h2></a>
+                    <a href="/"><h2 style={{color:'rgba(185, 113, 218, 0.53)'}}>LearnHub</h2></a>
                 </div>
                 <div className="nav-links">
                     <ul class="extras">

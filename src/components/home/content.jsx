@@ -4,7 +4,7 @@ export default function Content() {
     return (
         <div className="content">
             <button className="btn">Introducing LearnHub 2.0</button>
-            <h1>Learn Anything</h1>
+            <h1>Learn Anything,</h1>
             <h1>Anywhere, Anytime</h1>
             <p>The modern learning platform designed to help you.</p>
             <p>master new skills with interactive courses, expert</p>

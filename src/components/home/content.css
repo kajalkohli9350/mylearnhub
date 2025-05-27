@@ -1,8 +1,6 @@
 .content{
     display: flex;
     flex-direction: column;
-    
- 
     align-items: center;
     padding: 20px;
     padding-top: 10rem;
@@ -12,14 +10,15 @@
 
 }
 h1{
-    color: #EDC9FF;
+    color: #a05abe;
     font-size: 58px;
-    
+    margin-top: 1px;
+   
 }
 .content p{
-    color: white;
+    color: rgba(218, 208, 208, 0.619);
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 1px;
     text-align: center;
     max-width: 600px;
 }
@@ -31,41 +30,39 @@ h1{
 }
 .btn{
     padding: 10px 20px;
-    border: none;
+    border: 1px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #EDC9FF;
-    color: black;
+    background-color: #25023055;
+    color: rgba(53, 77, 185, 0.533);
 }
-.btn:hover {
-    background-color: black;
-    color: grey;
-    border: 1px solid #EDC9FF;
-}
+
 .btn1  {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #EDC9FF;
+    background-color: #c164ef;
 
 }
 .btn2 {
     padding: 10px 20px;
-    border: none;
+    border: 1px;
+     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    
+    color: white;
+    background-color: black;
 }
 .btn2:hover {
-    background-color: black;
-    color: grey;
+    background-color:rgb(69, 66, 66);
+    color: white;
     border: 1px solid #EDC9FF;
 }
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .content {
         padding: 10px;
         height: auto;
@@ -85,4 +82,4 @@ h1{
         width: 50%;
         margin-bottom: 10px;
     }
-}
+} */
