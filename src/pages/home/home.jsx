@@ -1,7 +1,18 @@
 import React from "react";
-const Home =() => {
+import Content from '../../components/home/content';
+import Image from '../../components/home/image';
+import Success from '../../components/home/sucess';
+import Review from '../../components/home/review';
+import Ready from '../../components/home/ready';
+function Home() {
     return(
-        <div>Home</div>
+        <div>
+        <Content/>
+        <Image/>
+        <Success/>
+        <Review/>
+        <Ready/>
+        </div>
     )
 }
 export default Home

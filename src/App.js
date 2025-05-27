@@ -8,10 +8,12 @@ import Signup from './pages/contact/Contact';
 import Courses from './pages/courses/Courses';
 import Pricing from './pages/pricing/Pricing';
 import About from './pages/about/About';
+import Navbar from './components/home/Navbar';
 function App() {
   return (
     <>
    <BrowserRouter>
+   <Navbar/>
    <Routes>
      <Route path="/" element={<Home />}/>
      <Route path="about" element={<About/>}/>
