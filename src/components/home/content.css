@@ -35,7 +35,7 @@ h1{
     cursor: pointer;
     font-size: 16px;
     background-color: #25023055;
-    color: rgba(53, 77, 185, 0.533);
+    color: rgba(74, 131, 228, 0.8);
 }
 
 .btn1  {
@@ -44,6 +44,7 @@ h1{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    color: white;
     background-color: #c164ef;
 
 }

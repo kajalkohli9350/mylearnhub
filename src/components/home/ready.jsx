@@ -9,7 +9,9 @@ export default function Ready() {
         <div className='btnforready'>
         <button className="ready-button">Get Started</button>
         <button className="browse-button">Browse More</button>
+        
         </div>
+        <p style={{color:'rgb(255, 255, 255)'}}>No credit card required. Start with a free account.</p>
         </div>
     );
     }

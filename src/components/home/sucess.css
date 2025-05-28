@@ -1,60 +1,77 @@
-.success-container{
-    border: 1px solid black;
-    padding-top: 150px;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+.sucess{
     background-color: black;
-}
-.success-text{
-    color: #EDC9FF;
-}
-.success-text h2{
-    font-size: 48px;
-    padding: 25px;
-}
-.success-text h6{
-    font-size: 18px;
-    text-align: center;
-    color: grey;
-}
-.quality{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 20px;
-    padding: 50px 0;
+    padding: 50px;
     
 }
-.quality-item{
-    border: 0.5px solid rgb(194, 191, 191);
-    color: white;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
-.quality-item i{
-    font-size: 36px;
-    border: 0.3px solid #EDC9FF;
-    background-color: #EDC9FF;
-    color: #7209b7;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    width: 55px;
-    padding:5px;
-    align-items: center;
-    align-content: center;
-}
-.quality-item p{
+.sucess h3{
     color: grey;
 }
-.quality-item:hover{
-    border: 1px solid #4cc9f0;
+.sucess__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px 0;
+}
+.sucessbox{
+    display: flex;
+    margin-top: 50px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+   
+    gap: 20px;
+    padding: 10px;
+}
+.iconss{
+    color: rgb(152, 82, 238);
+    font-size: 20px;
+    height: 50px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.sucesspara{
+   
+    font-size: 20px;
+    padding-bottom: 10px;
+   
+}
+.sucess-item{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+    height:250px ;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  
+}
+.sucess-item:hover{
     cursor: pointer;
+    box-shadow: 0 0 3px #be64df;
+    
+    }
+.sucess-item p{
+    color: grey;
+    font-size: 14px;
+  padding-top: 20px;
+    height: 80px;
+   
+
+}
+@media (max-width: 768px) {
+    .sucessbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sucess-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }

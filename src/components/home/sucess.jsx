@@ -1,102 +1,100 @@
-import './review.css';
+import './sucess.css';
 
-export default function Review() {
+export default function Sucess() {
   return (
-    <div className="review">
-      <div className="review__header">
-        <h1>What Our Leaners Say</h1>
-        <h3>Join thousands of satisfied learners who have</h3>
-        <h3>transformed their skills and careers with LearnHub.</h3>
+    <div className="sucess">
+      <div className="sucess__header">
+        <h1>Everything You Need to Succeed</h1>
+        <h3>Our platform is designed with features that make</h3>
+        <h3>learning effective, engaging, and accessible for everyone.</h3>
 
         </div>
-        <div className='reviewbox'>
-          <div className='review-item'>
-            <div className='iconstar'>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
+        <div className='sucessbox'>
+          <div className='sucess-item'>
+            <div className='iconss'>
+            <i className="fa-solid fa-book"></i>
             <br />
 
             </div>
-            <p>"LearnHub transformed my career. I went from knowing nothing about web development to landing a full-stack role in just 6 months. The structured curriculum and hands-on projects made all the difference."</p>
+            <div class="sucesspara">
+            <h4>Extensive Course Library</h4>
+            <p>Access thousands of courses across various disciplines, from programming to design, business, and more.</p>
             <br />
-            <h4>- Sarah Johnson</h4>
-            <p>Software Developer</p>
-          </div>
-          <div className='review-item'>
-            <div className='iconstar'>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <br />
-
-            </div>
-            <p>""As someone who's tried multiple learning platforms, LearnHub stands out for its engaging content and supportive community. The instructors are responsive and the course materials are constantly updated."</p>
-            <br />
-            <h4>- Michael Chen</h4>
-            <p>UX Designer</p>
-          </div>
-          <div className='review-item'>
-            <div className='iconstar'>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <br />
-
             </div>
             
-            <p>"The enterprise plan has been a game-changer for our team's professional development. The analytics dashboard helps us track progress, and the custom learning paths ensure everyone gets exactly what they need."</p>
+          </div>
+          <div className='sucess-item'>
+            <div className='iconss'>
+            <i className="fa-solid fa-person"></i>
+            
             <br />
-            <h4>- Emily Rodriguez</h4>
-            <p>HR Director</p>
+
+            </div>
+            <div class="sucesspara">
+            <h4>Expert Instructors</h4>
+            <p>Learn from industry professionals and academic experts who bring real-world experience to their teaching.</p>
+            <br />
+            </div>
+            
+          </div>
+          <div className='sucess-item'>
+            <div className='iconss'>
+            <i className="fa-solid fa-medal"></i>
+            
+            <br />
+
+            </div>
+            <div class="sucesspara">
+            <h4>Certificates & Credentials</h4>
+            <p>Earn recognized certificates upon course completion to showcase your skills to employers.</p>
+            <br />
+            </div>
+            
           </div>
          </div> 
-          <div className='reviewbox'>
-          <div className='review-item'>
-            <div className='iconstar'>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <br />
-
-            </div>
-            <p>"LearnHub transformed my career. I went from knowing nothing about web development to landing a full-stack role in just 6 months. The structured curriculum and hands-on projects made all the difference."</p>
-            <br />
-            <h4>- Sarah Johnson</h4>
-            <p>Software Developer</p>
-          </div>
-          <div className='review-item'>
-            <div className='iconstar'>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <br />
-
-            </div>
-            <p>""As someone who's tried multiple learning platforms, LearnHub stands out for its engaging content and supportive community. The instructors are responsive and the course materials are constantly updated."</p>
-            <br />
-            <h4>- Michael Chen</h4>
-            <p>UX Designer</p>
-          </div>
-          <div className='review-item'>
-            <div className='iconstar'>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <br />
-
-            </div>
+          <div className='sucessbox'>
+          <div className='sucess-item'>
+            <div className='iconss'>
+            <i className="fa-solid fa-graph"></i>
             
-            <p>"The enterprise plan has been a game-changer for our team's professional development. The analytics dashboard helps us track progress, and the custom learning paths ensure everyone gets exactly what they need."</p>
             <br />
-            <h4>- Emily Rodriguez</h4>
-            <p>HR Director</p>
+
+            </div>
+            <div class="sucesspara">
+            <h4>Progress Tracking</h4>
+            <p>Monitor your learning journey with detailed analytics and progress reports to stay motivated.</p>
+            <br />
+            
+            </div>
+          </div>
+          <div className='sucess-item'>
+            <div className='iconss'>
+            <i className="fa-solid fa-timewatch"></i>
+           
+            <br />
+
+            </div>
+            <div class="sucesspara">
+            <h4>Flexible Learning</h4>
+            <p>Study at your own pace with lifetime access to course materials, accessible on any device.</p>
+            <br />
+            
+            </div>
+          </div>
+          <div className='sucess-item'>
+            <div className='iconss'>
+            <i className="fa-solid fa-light"></i>
+            
+            <br />
+            
+
+            </div>
+            <div class="sucesspara">
+             <h4>Interactive Learning</h4>
+            <p>Engage with hands-on projects, quizzes, and assignments that reinforce your understanding.</p>
+            <br />
+           </div>
+            
           </div>
          </div> 
     </div>
