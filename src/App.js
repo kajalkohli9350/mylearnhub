@@ -2,8 +2,8 @@
 import './App.css';
 import{BrowserRouter,Routes,Route} from'react-router-dom';
 import Home from "./pages/home/Home";
-import Login from "./pages/auth/login/Login";
-import Contact from "./pages/auth/signup/Signup";
+import Login from "./pages/auth/login/Authlogin";
+import Contact from "./pages/auth/signup/Authsignup";
 import Signup from './pages/contact/Contact';
 import Courses from './pages/courses/Courses';
 import Pricing from './pages/pricing/Pricing';

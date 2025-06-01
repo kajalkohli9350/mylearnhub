@@ -21,7 +21,7 @@ export default function Navbar() {
 
                 <div class="auth-links">
                     <i class="fa solid fa-magnifying-glass"></i>
-                    <i className="fa solid fa-sun"></i>
+                    <i className="fa-solid fa-sun"></i>
                     <li><NavLink to="/login" className="nav-link">Login</NavLink></li>
                     <li><NavLink to="/signup" className="nav-link">Signup</NavLink></li>
                 </div>
