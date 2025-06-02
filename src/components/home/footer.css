@@ -1,9 +1,3 @@
-body {
-  margin: 10;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #ccc;
-}
 
 .footer {
   padding: 40px;
@@ -20,6 +14,7 @@ body {
 
 .footer-brand {
   flex: 1;
+
   min-width: 250px;
 }
 
@@ -29,10 +24,14 @@ body {
 }
 
 .footer-brand p {
+  color: #ccc;
   line-height: 1.6;
 }
 
-
+.footer-bottom p {
+  color: #ccc;
+  line-height: 1.6;
+}
 
 .footer-links {
   display: flex;
