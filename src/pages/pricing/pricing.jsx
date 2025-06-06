@@ -1,7 +1,12 @@
 import React from "react";
-const Pricing =() => {
+import Content from "../../components/pricing/content";
+import Footer from "../../components/pricing/footer";
+function Pricing () {
     return(
-        <div>pricing</div>
+        <div>
+            <Content/>
+            <Footer/>
+            </div>
     )
 }
 export default Pricing

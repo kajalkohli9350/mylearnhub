@@ -28,14 +28,16 @@ h1{
     justify-content: center;
     margin-top: 20px;
 }
-.btn{
+.content .btn{
     padding: 10px 20px;
     border: 1px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    background-color: #25023055;
-    color: rgba(74, 131, 228, 0.8);
+    width: 15%;
+    background-color: #4241447b;
+    color: rgba(79, 106, 153, 0.8);
+    
 }
 
 .btn1  {

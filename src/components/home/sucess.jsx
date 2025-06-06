@@ -12,7 +12,7 @@ export default function Sucess() {
         <div className='sucessbox'>
           <div className='sucess-item'>
             <div className='iconss'>
-            <i className="fa-solid fa-book"></i>
+            <botton><i className="fa-solid  fa-book-open"></i></botton>
             <br />
 
             </div>
@@ -25,7 +25,7 @@ export default function Sucess() {
           </div>
           <div className='sucess-item'>
             <div className='iconss'>
-            <i className="fa-solid fa-person"></i>
+           <botton><i className="fa-solid fa-users"></i></botton>
             
             <br />
 
@@ -39,7 +39,7 @@ export default function Sucess() {
           </div>
           <div className='sucess-item'>
             <div className='iconss'>
-            <i className="fa-solid fa-medal"></i>
+            <botton><i className="fa-solid fa-user-plus"></i></botton>
             
             <br />
 
@@ -55,7 +55,7 @@ export default function Sucess() {
           <div className='sucessbox'>
           <div className='sucess-item'>
             <div className='iconss'>
-            <i className="fa-solid fa-graph"></i>
+            <botton><i className="fa-solid fa-diamond"></i></botton>
             
             <br />
 
@@ -69,7 +69,7 @@ export default function Sucess() {
           </div>
           <div className='sucess-item'>
             <div className='iconss'>
-            <i className="fa-solid fa-timewatch"></i>
+            <botton><i className="fa-solid fa-laptop-file"></i></botton>
            
             <br />
 
@@ -83,7 +83,7 @@ export default function Sucess() {
           </div>
           <div className='sucess-item'>
             <div className='iconss'>
-            <i className="fa-solid fa-light"></i>
+            <botton><i className="fa-solid fa-check"></i></botton>
             
             <br />
             
